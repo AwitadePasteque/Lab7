@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carreras</title>
+    <style>
+        header {
+  background-color: white;
+  color: purple;
+  padding: 1rem;
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex; 
+  align-items: center;
+  gap: 1rem;
+}
+
+.vertical{
+    border-left: 1px solid #000;
+    height: 90px;
+    margin: 0 1rem;
+    color: purple;
+}
+
+.logo-utp {
+  height: 100px;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo h1 { margin: 0; font-size: 2.5rem; color: purple; }
+.titulo p  { margin: 0; font-size: 1.3rem; color: rgb(93, 0, 93); }
+
+.Pipa{
+    color: purple;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    text-decoration: wavy underline;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Carrera {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    width: calc(50% - 40px);
+    background-color: purple;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.Carrera:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    background-color: rgb(128, 0, 128);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://utp.ac.pa/sites/default/files/documentos/2024/imagen/6_logo_utp_-_rgb_oficial.png" alt="Logo UTP" class="logo-utp">
+        <div class="vertical"></div>
+        <div class="titulo">
+            <h1 class="Miu">Universidad</h1>
+            <p class="Miu2">Tecnológica de Panamá</p>
+        </div>
+    </header> <hr>
+        <h1 class="Pipa">Carreras Ofrecidas</h1><br><br>
+    <section>
+
+    <div class="Carrera">
+            <p>Ingeniería de Sistemas Computacionales</p>
+    </div>
+    <div class="Carrera">
+            <p>Ingeniería Electrónica</p>
+    </div>
+    <div class="Carrera">
+            <p>Ingeniería Industrial</p>
+    </div>
+    <div class="Carrera">
+            <p>Ingeniería en Telecomunicaciones</p>
+    </div>
+    <div class="Carrera">
+            <p>Ingeniería Mecánica</p>
+    </div>    
+    <div class="Carrera"> 
+            <p>Licenciatura en Administración de Empresas</p>
+    </div>
+    <div class="Carrera">     
+            <p>Licenciatura en Logística y Transporte Multimodal</p>
+    </div>
+    <div class="Carrera">
+            <p>Licenciatura en Ciberseguridad</p>
+    </div>
+</body>
+</html>
